@@ -1,0 +1,11 @@
+CREATE TABLE flumemaleemployeel
+(
+sex_type int, name string, city string )
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ',';
+
+
+CREATE TABLE flumefemaleemployeel
+(
+sex_type int, name string, city string
+)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ',';
